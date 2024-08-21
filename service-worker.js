@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
         caches.open('my-cache')
             .then(cache => {
                 return cache.addAll([
-                    '/livreto15.svg',
+                    '/pgg.pdf',
                     // Adicione outros arquivos que você deseja armazenar em cache
                 ]);
             })
